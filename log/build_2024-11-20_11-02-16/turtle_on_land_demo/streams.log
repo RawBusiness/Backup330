@@ -1,0 +1,72 @@
+[0.931s] Invoking command in '/home/turtle_on_land/tutorial_ws/src/turtle_on_land_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_on_land_demo build --build-base /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/build install --record /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/install.log --single-version-externally-managed install_data
+[1.241s] running egg_info
+[1.241s] creating ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info
+[1.265s] writing ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/PKG-INFO
+[1.265s] writing dependency_links to ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/dependency_links.txt
+[1.266s] writing requirements to ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/requires.txt
+[1.266s] writing top-level names to ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/top_level.txt
+[1.266s] writing manifest file '../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/SOURCES.txt'
+[1.317s] reading manifest file '../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/SOURCES.txt'
+[1.318s] writing manifest file '../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/SOURCES.txt'
+[1.318s] running build
+[1.318s] running build_py
+[1.319s] creating /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/build
+[1.319s] creating /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/build/lib
+[1.319s] creating /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/build/lib/turtle_on_land_demo
+[1.319s] copying turtle_on_land_demo/__init__.py -> /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/build/lib/turtle_on_land_demo
+[1.319s] running install
+[1.325s] running install_lib
+[1.350s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/lib/python3.12/site-packages/turtle_on_land_demo
+[1.350s] copying /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/build/lib/turtle_on_land_demo/__init__.py -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/lib/python3.12/site-packages/turtle_on_land_demo
+[1.351s] byte-compiling /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/lib/python3.12/site-packages/turtle_on_land_demo/__init__.py to __init__.cpython-312.pyc
+[1.351s] running install_data
+[1.351s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/ament_index
+[1.351s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/ament_index/resource_index
+[1.351s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/ament_index/resource_index/packages
+[1.352s] copying resource/turtle_on_land_demo -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/ament_index/resource_index/packages
+[1.352s] copying package.xml -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo
+[1.352s] copying launch/launchc.py -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo
+[1.353s] copying launch/launchc (Copy).py -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo
+[1.355s] copying launch/launch.py -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo
+[1.355s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf
+[1.355s] copying urdf/URDF1 (Copy).urdf -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.361s] copying urdf/URDF1.sdf -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.362s] copying urdf/turtle_gazebo.config -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.365s] copying urdf/URDF1.iur -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.366s] copying urdf/URDF1.urdf -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.367s] copying urdf/SANDY_TERRAINII.dae -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.460s] copying urdf/URDF1.pdf -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.460s] copying urdf/URDF1.gv -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.460s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/rviz
+[1.460s] copying rviz/turtle.rviz -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/rviz/
+[1.461s] copying rviz/robot.rviz -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/rviz/
+[1.462s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/config
+[1.462s] copying config/joint_controllers.yaml -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/config/
+[1.464s] copying config/ros2_control.xacro -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/config/
+[1.464s] copying config/velocity_publisher.cpp -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/config/
+[1.466s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes
+[1.466s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision
+[1.466s] copying meshes/collision/Front_right1.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision/
+[1.471s] copying meshes/collision/Back_right2.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision/
+[1.478s] copying meshes/collision/Front_left2.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision/
+[1.486s] copying meshes/collision/Back_right1.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision/
+[1.499s] copying meshes/collision/Front_left1.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision/
+[1.523s] copying meshes/collision/Back_left2.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision/
+[1.530s] copying meshes/collision/Back_left1.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision/
+[1.542s] copying meshes/collision/Front_right2.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision/
+[1.547s] copying meshes/collision/base_link.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/collision/
+[1.630s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual
+[1.631s] copying meshes/visual/Front_right1.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual/
+[1.633s] copying meshes/visual/Back_right2.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual/
+[1.638s] copying meshes/visual/Front_left2.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual/
+[1.646s] copying meshes/visual/Back_right1.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual/
+[1.652s] copying meshes/visual/Front_left1.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual/
+[1.658s] copying meshes/visual/Back_left2.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual/
+[1.676s] copying meshes/visual/Back_left1.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual/
+[1.679s] copying meshes/visual/Front_right2.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual/
+[1.681s] copying meshes/visual/base_link.STL -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/meshes/visual/
+[1.757s] running install_egg_info
+[1.786s] Copying ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info to /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/lib/python3.12/site-packages/turtle_on_land_demo-0.0.0-py3.12.egg-info
+[1.787s] running install_scripts
+[1.948s] writing list of installed files to '/home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/install.log'
+[1.977s] Invoked command in '/home/turtle_on_land/tutorial_ws/src/turtle_on_land_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_on_land_demo build --build-base /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/build install --record /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/install.log --single-version-externally-managed install_data

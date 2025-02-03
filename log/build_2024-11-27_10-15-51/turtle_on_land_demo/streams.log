@@ -1,0 +1,19 @@
+[0.966s] Invoking command in '/home/turtle_on_land/tutorial_ws/src/turtle_on_land_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_on_land_demo build --build-base /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/build install --record /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/install.log --single-version-externally-managed install_data
+[1.269s] running egg_info
+[1.292s] writing ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/PKG-INFO
+[1.292s] writing dependency_links to ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/dependency_links.txt
+[1.292s] writing requirements to ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/requires.txt
+[1.292s] writing top-level names to ../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/top_level.txt
+[1.345s] reading manifest file '../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/SOURCES.txt'
+[1.346s] writing manifest file '../../build/turtle_on_land_demo/turtle_on_land_demo.egg-info/SOURCES.txt'
+[1.346s] running build
+[1.346s] running build_py
+[1.346s] running install
+[1.353s] running install_lib
+[1.378s] running install_data
+[1.378s] copying launch/launch.py -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo
+[1.381s] copying urdf/URDF1.urdf -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.382s] copying urdf/robot1.urdf.xacro -> /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/urdf/
+[1.382s] creating /home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/share/turtle_on_land_demo/src
+[1.383s] error: can't copy 'src': doesn't exist or not a regular file
+[1.403s] Invoked command in '/home/turtle_on_land/tutorial_ws/src/turtle_on_land_demo' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/turtle_on_land/tutorial_ws/install/turtle_on_land_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_on_land_demo build --build-base /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/build install --record /home/turtle_on_land/tutorial_ws/build/turtle_on_land_demo/install.log --single-version-externally-managed install_data
